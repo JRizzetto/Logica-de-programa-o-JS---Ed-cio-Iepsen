@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média das notas</title>
+</head>
+<body>
+
+    <script>
+        /* 
+        Elaborar um programa que leia 2 notas de um aluno em uma diciplina. 
+        Calcule e informe a média das notas. 
+
+        Exemplo:
+        Primeira nota: 7.0
+        Segunda nota: 8.0
+        Média: 7.5
+        */
+
+        const nota1 = Number(prompt("Digite a primeira do aluno"));
+        const nota2 = Number(prompt("Digite a segunda nota do aluno"));
+        const media = (nota1+nota2) / 2;
+
+        alert(`Primeira Nota: ${nota1.toFixed(1)} \nSegunda Nota: ${nota2.toFixed(1)} \nMédia: ${media.toFixed(1)}`);
+
+    </script>
+    
+</body>
+</html>
