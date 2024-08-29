@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Pizzaria</title>
+</head>
+<body>
+    
+    <script>
+        /* 
+        Elabore um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. 
+        Calcule e informe o valor a ser pago por cliente. 
+        */
+
+        const valorConta = Number(prompt("Digite o valor da conta"));
+        const numeroClientes = Number(prompt("Digite o numero de clientes"));
+        const total = (valorConta / numeroClientes);
+        alert(`O valor total dividido por ${numeroClientes} é R$: ${total.toFixed(2)}`);
+
+    </script>
+
+</body>
+</html>
